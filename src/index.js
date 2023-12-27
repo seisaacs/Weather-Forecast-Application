@@ -51,8 +51,6 @@ function updateCity(event) {
 }
 
 function displayForecast() {
-  let forecastElement = document.querySelector("#forecast");
-
   let days = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue"];
   let forecastHtml = "";
   days.forEach(function (day) {
@@ -65,9 +63,10 @@ function displayForecast() {
           <span class="weather-forecast-temperature-max">
             <strong>15°</strong>
           </span>
-          <span class=""weather-forecast-temperature-min">9°</span>
+          <span class="weather-forecast-temperature-min">9°</span>
         </div>`;
   });
+  let forecastElement = document.querySelector("#forecast");
 
   forecastElement.innerHTML = forecastHtml;
 }
