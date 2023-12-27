@@ -53,3 +53,14 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", updateCity);
 
 searchCity("Miami");
+
+let forecast = document.querySelector("#forecast");
+forecast.innerHTML = `
+<div class="weather-forecast-day">Wed</div>
+        <div class="weather-forecast-icon">🌤️</div>
+        <div class="weather-forecast-temperatures">
+          <span class="weather-forecast-temperature-max">
+            <strong>15°</strong>
+          </span>
+          <span class=""weather-forecast-temperature-min">9°</span>
+        </div>`;
