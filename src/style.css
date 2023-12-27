@@ -62,7 +62,7 @@ weather-app-details {
 }
 .weather-app-icon {
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .weather-app-temperature-unit {
@@ -76,6 +76,19 @@ a {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+}
+
+hr {
+  color: #809bce;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-day {
+  color: #809bce;
 }
 footer {
   border-top: 1px solid #f9f7fe;
