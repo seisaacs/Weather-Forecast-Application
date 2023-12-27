@@ -95,6 +95,11 @@ hr {
 
 .weather-forecast-icon {
   text-align: center;
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: auto;
+  max-width: 50%;
 }
 
 .weather-forecast-temperatures {
