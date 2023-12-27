@@ -85,10 +85,16 @@ hr {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-day {
   color: #809bce;
+}
+
+.weather-forecast-icon {
+  text-align: center;
 }
 footer {
   border-top: 1px solid #f9f7fe;
