@@ -60,10 +60,10 @@ function displayForecast() {
 <div class="weather-forecast-day">${day}</div>
         <div class="weather-forecast-icon">🌤️</div>
         <div class="weather-forecast-temperatures">
-          <span class="weather-forecast-temperature-max">
+          <div class="weather-forecast-temperature-max">
             <strong>15°</strong>
-          </span>
-          <span class="weather-forecast-temperature-min">9°</span>
+          </div>
+          <div class=""weather-forecast-temperature-min">9°</div>
         </div>`;
   });
   let forecastElement = document.querySelector("#forecast");
